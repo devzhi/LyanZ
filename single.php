@@ -11,6 +11,6 @@
 <div class="w3-panel w3-border w3-light-grey w3-round-large lz-content">
   <h2><?php $this->title() ?></h2>
 		<?php $this->content(); ?>
+		<?php $this->need('comments.php'); ?>
 </div>
-
 <?php $this->need('footer.php'); ?>
