@@ -11,6 +11,9 @@
 	 $this->need('sidebar.php');
 ?>
 	<div style="margin-left: 15%" class="w3-light-grey">
+		<div class="w3-teal">
+ 		<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+ 		</div>
 		<div class="w3-container w3-teal">
 			<h1><?php $this->options->title(); ?></h1>
 			<p><?php $this->options->description() ?></p>
@@ -21,9 +24,10 @@
 				<a href="<?php $this->permalink() ?>"><h2><?php $this->title() ?></h2></a>
 			</div>
 			<div class="lz-list" >
-				<p><?php $this->content('Continue Reading...'); ?></p>
+				<?php $this->content(); ?>
+				<center><button class="w3-btn w3-teal w3-round-xxlarge lz-center"><a href="<?php $this->permalink() ?>">Continue Reading...</a></button></center>
 			</div>
-			<div class="lz-list" >
+			<div class="w3-right lz-list" >
 				<p><?php $this->date('F j, Y'); ?></p>
 			</div>
 		</div>
