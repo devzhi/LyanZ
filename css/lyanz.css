@@ -1,6 +1,9 @@
 body {
 	font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
 }
+a {
+	text-decoration: none;
+}
 .lz-list {
 	margin-top: 10px;
 	margin-left: 10px;
