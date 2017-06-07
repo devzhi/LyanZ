@@ -1,4 +1,11 @@
+body {
+	font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
 .lz-list {
 	margin-top: 10px;
 	margin-left: 10px;
+}
+.lz-content {
+	margin-left: 10px;
+	margin-right: 10px;
 }
