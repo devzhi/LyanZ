@@ -10,7 +10,7 @@
 	 $this->need('header.php');
 	 $this->need('sidebar.php');
 ?>
-	<div  id="lzSideMenu" v-bind:style="marValue" class="w3-light-grey">
+	<div id="lzSideMenu" v-bind:style="marValue" class="w3-main w3-light-grey">
 		<div class="w3-teal">
  		<button onclick="lz_sidebar.lz_side_look_c(true)" class="w3-button w3-teal w3-xlarge">&#9776;</button>
  		</div>
