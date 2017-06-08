@@ -17,5 +17,5 @@
 		<?php $this->need('comments.php'); ?>
 	</div>
 
-</div>
+
 <?php $this->need('footer.php'); ?>

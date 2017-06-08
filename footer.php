@@ -2,7 +2,7 @@
 		<h6>&copy; <?php echo date("Y")?> <?php $this->options->title() ?></h6>
 		<h6>Power by Typecho &amp; Theme By LyanZ</h6>
 	</div>
-
+</div>
 	<script src="<?php $this->options->themeUrl('/js/lyanz.js'); ?>"></script>
 </body>
 </html>
