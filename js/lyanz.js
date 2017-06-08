@@ -7,9 +7,9 @@ var lz_sidebar = new Vue({
 		lz_side_look_c: function (Plook) {
 			this.lz_side_look = Plook;
 			if (Plook) {
-				alert("True")
+				lzSideMenu.c('15');
 			} else {
-				alert("False")
+				lzSideMenu.c('0');
 			}
 		},
 	},
@@ -22,8 +22,8 @@ var lzSideMenu = new Vue({
 		},
 	},
 	methods: {
-		c: function (Pmar_v) {
-			this.mar_value = Pmar_V;
+		c: function (marV) {
+			this.marValue.marginLeft = marV + '%';
 		},
 	},
 })
