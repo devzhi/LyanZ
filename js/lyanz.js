@@ -1,12 +1,12 @@
-var lz_sidebar = new Vue({
+var lzSidebar = new Vue({
 	el: '#lz_sidebar',
 	data: {
-		lz_side_look: true
+		lzSideLook: true
 	},
 	methods: {
-		lz_side_look_c: function (Plook) {
-			this.lz_side_look = Plook;
-			if (Plook) {
+		lzSideLookC: function (pLook) {
+			this.lzSideLook = pLook;
+			if (pLook) {
 				lzSideMenu.c('15');
 			} else {
 				lzSideMenu.c('0');

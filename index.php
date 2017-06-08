@@ -12,7 +12,7 @@
 ?>
 	<div id="lzSideMenu" v-bind:style="marValue" class="w3-main w3-light-grey">
 		<div class="w3-teal">
- 		<button onclick="lz_sidebar.lz_side_look_c(true)" class="w3-button w3-teal w3-xlarge">&#9776;</button>
+ 		<button onclick="lzSidebar.lzSideLookC(true)" class="w3-button w3-teal w3-xlarge">&#9776;</button>
  		</div>
 		<div class="w3-container w3-teal">
 			<h1><?php $this->options->title(); ?></h1>
