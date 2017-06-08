@@ -12,7 +12,7 @@
 ?>
 	<div style="margin-left: 15%" class="w3-light-grey">
 		<div class="w3-teal">
- 		<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+ 		<button id="lz_side_button_menu" onclick="lz_sidebar.lz_side_look = true" class="w3-button w3-teal w3-xlarge">&#9776;</button>
  		</div>
 		<div class="w3-container w3-teal">
 			<h1><?php $this->options->title(); ?></h1>
