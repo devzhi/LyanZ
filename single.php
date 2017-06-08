@@ -11,11 +11,25 @@
 		<p><?php $this->options->description() ?></p>
 	</div>
 	
-	<div class="w3-panel w3-border w3-light-grey w3-round-large lz-content">
-  		<h2><?php $this->title() ?></h2>
-		<?php $this->content(); ?>
-		<?php $this->need('comments.php'); ?>
+	
+	<div class="w3-card-4">
+
+			<header class="w3-container w3-green">
+			  <h2><?php $this->title() ?></h2>
+			  <p class="w3-right">发表于 </p>
+			</header>
+
+			<div class="w3-container">
+		  		<?php $this->content(); ?>
+			</div>
+
+			<footer class="w3-container w3-indigo">
+			  <h5>标签 / Tags：<button class="w3-button w3-teal"><?php $this->tags('</button> <button class="w3-button w3-teal">', true, '小编懒死啦，连个标签都不加2333'); ?></button></h5>
+			</footer>
+
 	</div>
+<?php $this->need('comments.php'); ?>
+	
 
 
 <?php $this->need('footer.php'); ?>
