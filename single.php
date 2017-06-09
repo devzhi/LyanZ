@@ -14,7 +14,7 @@
 	
 	<div class="w3-card-4">
 
-			<header class="w3-container w3-green">
+			<header class="w3-container w3-grey">
 			  <h2><?php $this->title() ?></h2>
 			  <p class="w3-right">发表于 </p>
 			</header>
