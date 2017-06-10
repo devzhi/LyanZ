@@ -16,7 +16,7 @@
 
 			<header class="w3-container w3-grey">
 			  <h2><?php $this->title() ?></h2>
-			  <p class="w3-right">发表于 </p>
+			  <p class="w3-right">发表于 <?php $this->date('F j, Y'); ?></p>
 			</header>
 
 			<div class="w3-container">
@@ -24,7 +24,7 @@
 			</div>
 
 			<footer class="w3-container w3-indigo">
-			  <h5>标签 / Tags：<button class="w3-button w3-teal"><?php $this->tags('</button> <button class="w3-button w3-teal">', true, '小编懒死啦，连个标签都不加2333'); ?></button></h5>
+			  <h5>标签 / Tags：<button class="w3-button w3-teal"><?php $this->tags('</button> <button class="w3-button w3-teal">', true, '小编懒死啦，连个标签都不加233'); ?></button></h5>
 			</footer>
 
 	</div>
