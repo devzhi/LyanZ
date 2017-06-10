@@ -10,11 +10,10 @@
 		<h1><?php $this->options->title(); ?></h1>
 		<p><?php $this->options->description() ?></p>
 	</div>
-	
-	
+<?php $this->need('crumbs.php'); ?>
 	<div class="w3-card-4">
 
-			<header class="w3-container w3-grey">
+			<header class="w3-container w3-dark-gray">
 			  <h2><?php $this->title() ?></h2>
 			  <p class="w3-right">发表于 <?php $this->date('F j, Y'); ?></p>
 			</header>

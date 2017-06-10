@@ -25,6 +25,9 @@ h6 {
 p,li {
 	font-size: 16px;
 }
+img {
+	width: 100%;
+}
 .lz-list {
 	margin-top: 10px;
 	margin-left: 10px;
@@ -32,4 +35,7 @@ p,li {
 .lz-content {
 	margin-left: 10px;
 	margin-right: 10px;
+}
+.lz-center {
+	margin: 0 auto;
 }

@@ -18,6 +18,7 @@
 			<h1><?php $this->options->title(); ?></h1>
 			<p><?php $this->options->description() ?></p>
 		</div>
+<?php $this->need('crumbs.php'); ?>
 		<?php while($this->next()): ?>
 		<div style="margin-top: 10px" class="w3-container w3-card-4">
 			<div class="lz-list" >
