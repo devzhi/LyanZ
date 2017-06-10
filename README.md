@@ -23,7 +23,3 @@ LyanZ,A Typecho Theme
 - [Vue.js](https://github.com/vuejs/vue)
 
 **捐赠我**
-
-![Weixin](https://ooo.0o0.ooo/2017/06/10/593bd56841493.png)
-
-![Alipay](https://ooo.0o0.ooo/2017/06/10/593bd568ae283.jpg)
