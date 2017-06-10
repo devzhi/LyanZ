@@ -11,9 +11,29 @@ LyanZ,A Typecho Theme
 
 [DEMO](https://www.sstype.com/)
 
-## 安装
+## 安装&使用
 
-下载最新[稳定版](https://github.com/hiyelang/LyanZ/releases)上传至usr/themes后台启用即可
+### 安装
+
+[**下载**](https://github.com/hiyelang/LyanZ/releases)最新稳定版并上传至`usr/themes`后台启用
+
+### 使用
+
+#### 友情链接
+
+*友情链接位于左侧边栏Links下，默认启用*
+
+##### 启用&禁用
+
+编辑`sidebar.php`第9行`<?php $this->need('links.php'); ?>`为`<?php #$this->need('links.php'); ?>`或删除即可禁用友情链接
+
+##### 修改&添加
+
+编辑`links.php`第5行提供的即可修改友情链接，添加请直接复制第5行
+
+#### 代码统计
+
+将统计代码添加到`footer.php`第5行即可。
 
 ## 致谢 & 捐赠
 
