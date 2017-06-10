@@ -33,5 +33,10 @@
 			</div>
 		</div>
 		<?php endwhile; ?>
-		<?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+
+		<div style="margin-top: 10px" class="w3-container w3-card w3-padding">
+			<?php $this->pageLink('<button class="w3-button w3-left w3-brown"><i class="fa fa-angle-double-left"></i> 上一页</span></button>'); ?>
+			<?php $this->pageLink('<button class="w3-button w3-right w3-green">下一页 <i class="fa fa-angle-double-right"></i></button>','next'); ?>
+		</div>
+
 	<?php $this->need('footer.php'); ?>
