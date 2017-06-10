@@ -23,3 +23,5 @@ LyanZ,A Typecho Theme
 - [Vue.js](https://github.com/vuejs/vue)
 
 **捐赠我**
+
+![https://github.com/hiyelang/LyanZ/raw/master/pay.png](https://github.com/hiyelang/LyanZ/raw/master/pay.png)
