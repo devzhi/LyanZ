@@ -23,7 +23,7 @@
 			</div>
 
 			<footer class="w3-container w3-indigo">
-			  <h5>标签 / Tags：<button class="w3-button w3-teal"><?php $this->tags('</button> <button class="w3-button w3-teal">', true, '小编懒死啦，连个标签都不加233'); ?></button></h5>
+			  <h5>标签 / Tags：<span class="w3-tag w3-round w3-teal"><?php $this->tags('</span> <span class="w3-tag w3-round w3-teal">', true, '小编懒死啦，连个标签都不加233'); ?></span></h5>
 			</footer>
 
 	</div>
