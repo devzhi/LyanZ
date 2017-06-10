@@ -4,7 +4,7 @@
  * 
  * @package LyanZ 
  * @author 野狼
- * @version 0.0.1
+ * @version 1.0
  * @link https://www.sstype.com
  */
 	 $this->need('header.php');
