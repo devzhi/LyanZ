@@ -1,8 +1,29 @@
 body {
-	font-family: Exo,'-apple-system','Open Sans',HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
 }
 a {
 	text-decoration: none;
+}
+h1 {
+	font-size: 22px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 15px;
+}
+h6 {
+	font-size: 14px;
+}
+p,li {
+	font-size: 16px;
 }
 .lz-list {
 	margin-top: 10px;
