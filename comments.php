@@ -16,7 +16,10 @@
     <label>内容 / Content</label>
     <textarea rows="10" cols="50" name="text" class="w3-input w3-border w3-light-grey"><?php $this->remember('text'); ?></textarea>
 
-    <button class="w3-btn w3-button w3-block w3-brown w3-margin-top">提交 / Submit</button>
+    <button type="submit" class="w3-btn w3-button w3-block w3-brown w3-margin-top">提交 / Submit</button>
+
+    <?php $security = $this->widget('Widget_Security'); ?>
+            <input type="hidden" name="_" value="<?php echo $security->getToken($this->request->getReferer())?>">
 </form>
 
 </div>
