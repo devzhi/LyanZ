@@ -2,7 +2,7 @@
 	  <div class="w3-bar">
 	  	<span v-on:click="lzSideLookC(false)" class="w3-bar-item w3-button w3-large">Chose &times;</span>
 	  </div>
-	  <a href="<?php $this->options->siteUrl(); ?>" class="w3-bar-item w3-button">Home</a>
+	  <a href="<?php $this->options->siteUrl(); ?>" class="w3-bar-item w3-button"><span class="fa fa-home"> Home</span></a>
 	  <?php $this->widget('Widget_Contents_Page_List')
                ->parse('<a href="{permalink}" class="w3-bar-item w3-button">{title}</a>'); ?>
 	  <?php $this->need('links.php'); ?>
