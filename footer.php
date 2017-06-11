@@ -12,6 +12,16 @@
 		<h6>Power by <a href="http://typecho.org/">Typecho</a> &amp; Theme By <a href="https://github.com/hiyelang/LyanZ">LyanZ</a></h6>
 	</div>
 </div>
+<script src="<?php $this->options->themeUrl('/outdatedbrowser/outdatedBrowser.min.js'); ?>"></script>
+<div id="outdated"></div>
+	<script>
+    outdatedBrowser({
+        bgColor: '#f25648',
+        color: '#ffffff',
+        lowerThan: 'transform',
+        languagePath: '<?php $this->options->themeUrl('/outdatedbrowser/lang/zh-cn.html'); ?>'
+        })               
+	</script>
 	<script src="<?php $this->options->themeUrl('/js/lyanz.js'); ?>"></script>
 </body>
 </html>
