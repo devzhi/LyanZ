@@ -49,6 +49,7 @@ LyanZ,A Typecho Theme
 - [ ] 原生Google Analytics
 - [x] 搜索框
 - [ ] 后台设置
+- [ ] 优化图片显示
 
 ### 更新记录
 
