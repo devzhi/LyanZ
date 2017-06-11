@@ -50,11 +50,13 @@ LyanZ,A Typecho Theme
 - [x] 搜索框
 - [ ] 后台设置
 - [ ] 优化图片显示
+- [x] 浏览器升级提示
 
 ### 更新记录
 
 #### 2017年6月11日
 
+- 增加浏览器升级提示
 - 增加底部社交按钮
 - 增加搜索框
 
@@ -77,6 +79,7 @@ LyanZ,A Typecho Theme
 - [W3.css](https://www.w3schools.com/w3css/default.asp)
 - [Vue.js](https://github.com/vuejs/vue)
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome)
+- [OUTDATED BROWSER](https://github.com/burocratik/outdated-browser)
 
 **捐赠我**
 
