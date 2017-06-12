@@ -10,9 +10,9 @@ function themeConfig($form){
 
     #自定义侧边栏设置
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
-    array('sidebarShow' => _t('显示侧边栏'),
-    'sidebarLinks' => _t('显示友情链接')),
-    array('sidebarShow', 'sidebarLinks'), _t('侧边栏设置'));
+    array('sidebarLinks' => _t('显示友情链接'),
+    'sidebarSearch' => _t('显示搜索框')),
+    array('sidebarLinks', 'sidebarSearch'), _t('侧边栏设置'));
     
     $form->addInput($sidebarBlock->multiMode());
 }

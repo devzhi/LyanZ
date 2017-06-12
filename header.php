@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('/css/w3.css'); ?>">
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('/css/lyanz.css'); ?>">

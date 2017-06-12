@@ -16,7 +16,7 @@
  		</div>
 		<div class="w3-container w3-teal">
 			<h1><?php $this->options->title(); ?></h1>
-			<p><?php $this->options->description() ?></p>
+			<p><?php $this->options->headerSay() ?></p>
 		</div>
 		<?php $this->need('crumbs.php'); ?>
 		<?php while($this->next()): ?>
