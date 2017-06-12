@@ -15,6 +15,19 @@ function themeConfig($form){
     array('sidebarLinks', 'sidebarSearch'), _t('侧边栏设置'));
     
     $form->addInput($sidebarBlock->multiMode());
+
+    #Github
+	$footerGithub = new Typecho_Widget_Helper_Form_Element_Text('footerGithub',NULL,NULL,_t("Github地址"),_t("在这里设置底部Github图标的链接"));
+	$form->addInput($footerGithub);
+
+	#Weibo
+	$footerWeibo = new Typecho_Widget_Helper_Form_Element_Textarea('footerWeibo',NULL,NULL,_t("Weibo地址"),_t("在这里设置底部Weibo图标的链接"));
+	$form->addInput($footerWeibo);
+
+	#Weibo
+	$footerEmail = new Typecho_Widget_Helper_Form_Element_Textarea('footerEmail',NULL,NULL,_t("Email"),_t("在这里设置底部Email图标的链接"));
+	$form->addInput($footerEmail);
+}
 }
 
 ?>

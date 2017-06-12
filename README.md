@@ -17,7 +17,7 @@ LyanZ,A Typecho Theme
 
 ### 安装
 
-[**下载**](https://github.com/hiyelang/LyanZ/releases)最新稳定版并上传至`usr/themes`后台启用
+[**下载**](https://github.com/hiyelang/LyanZ/releases)最新稳定版并上传至`usr/themes`后台启用，**首次使用需要进行设置，否则可能不能正常工作。**
 
 ### 使用
 
@@ -31,23 +31,16 @@ LyanZ,A Typecho Theme
 
 #### 社交按钮
 
-编辑`footer.php`第`3-5`行的`#`为相应链接，三行分别对应*Github*，*Weibo*，*Email*，不需要可以直接删除掉此行。
+在后台设置相应的文本框内填入链接
 
 ## 更新
 
-### 更新方向
-
-- [x] 社交账号按钮
-- [x] 搜索框
-- [x] 后台设置
-- [ ] 优化图片显示
-- [x] 浏览器升级提示
-
 ### 更新记录
 
-#### 2017年6月12日
+#### 2017年6月12日 Version 1.2
 
 - 增加后台设置
+- fix a bug
 
 #### 2017年6月11日
 
