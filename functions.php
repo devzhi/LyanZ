@@ -28,6 +28,5 @@ function themeConfig($form){
 	$footerEmail = new Typecho_Widget_Helper_Form_Element_Textarea('footerEmail',NULL,NULL,_t("Email"),_t("在这里设置底部Email图标的链接"));
 	$form->addInput($footerEmail);
 }
-}
 
 ?>
