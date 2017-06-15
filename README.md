@@ -8,11 +8,6 @@ LyanZ,A Typecho Theme
 ![https://github.com/hiyelang/LyanZ/raw/master/screenshot.png](https://github.com/hiyelang/LyanZ/raw/master/screenshot.png)
 
 
-
-[DEMO](https://www.sstype.com/)
-
-[LyanZ主题背后的那些事](https://www.sstype.com/read/356.html)
-
 ## 安装&使用
 
 ### 安装
